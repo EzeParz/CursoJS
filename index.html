@@ -2,12 +2,102 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1er Pre-Entrega</title>
+    <title>Tuttoqui - Contactate con Nosotros</title>
+     <!-- Meta SEO -->
+    <meta name="description" content="A traves de nuestro formulario de contacto podes dejarnos tu consulta o comunicarte a traves de las redes, tambien te invitamos a conocer nuestro local a la calle...">
+    <meta name="author" content="Ezequiel Parziale">
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="./img/logo/favicon.ico" type="image/x-icon">
+    <!-- End Favicon -->
+    <!-- Link Bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- End Bs -->
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- End Css -->
 </head>
 <body>
-    <h1>Conversor de Pesos Ar/Usd</h1>
-    <script src="./js/listaDeProductos2daPreEntrega.js"></script>
-    
+  <nav class="navbar navbar-dark navbar-expand-lg" id="nav1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="./img/logo/LOGO TUTTOQUI.png" alt="Logo de Tuttoqui">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse me-auto" id="navbarNav">
+        <ul class="navbar-nav m-auto me-2" id="colornav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Congelados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Frutas y Verduras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="fondo2">
+    <main>
+        <section class="espacio3">
+            <article class="centrar4">
+                <h2>Contacto</h2>
+                <form id="formularioDeContacto">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email">
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono">
+                <label for="mensaje">Deje su mensaje</label>
+                <textarea name="" id="mensaje" cols="25" rows="10"></textarea>
+                  <div class="boton">
+                      <input type="reset" value="Cancelar">
+                      <input class="enviar" type="submit" value="Enviar">
+                  </div>
+                </form>
+            </article>
+            <article>
+              <h2>Formularios</h2>
+              <div id="listaDeFormularios"></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+      <div class="redes">
+        <a href="https://www.instagram.com/" target="_blank" >
+            <img src="../img/iconos/logoig.png" alt="Seguinos en Instagram">
+        </a>  
+        <a href="https://www.whatsapp.com/?lang=es">
+            <img src="../img/iconos/logowsp.png" alt="Envianos un mensaje por whatsapp">
+        </a> 
+      </div>
+      <div class="typPf">
+        <a href="./error404/error404-4.html">Terminos y Condiciones</a>
+        <a href="./error404/error404-4.html">Preguntas Frecuentes</a>
+      </div>   
+    </footer>
+    <div class="copyright"> 
+        <h3>Copyright © 2010-2023 Ezequiel Parziale Todos los derechos reservados.</h3>
+      </div>
+</div>
+
+    <!-- Script Bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- End Script Bs -->
+    <!-- Script JS Propio -->
+    <script src="./js/formularioDeContacto3eraPreentrega.js"></script>
+    <!-- End Script Propio -->
 </body>
 </html>
